@@ -2,7 +2,19 @@ export default function LinkItem({children, source}:{children:React.ReactNode ,s
     return(
         <>
             <li className="flex w-full">
-                <a className="bg-gray-50 hover:bg-blue-500 hover:text-white hover:text-2xl p-4 rounded-3xl w-full flex justify-center text-xl" href={source}>{children}</a>
+                <a className="
+                bg-[#e3c097]
+                text-red-900 
+                border-2
+                border-[#e3c097]
+                hover:bg-red-900 
+                hover:text-[#e3c097] 
+                hover:border-[#e3c097]
+                p-4  
+                w-full 
+                flex 
+                justify-center 
+                text-xl" href={source}>{children}</a>
             </li>
         </>
     )
