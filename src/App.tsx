@@ -17,7 +17,7 @@ function App() {
         <div className='rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl bg-red-900 lg:h-screen flex flex-col justify-center items-center w-full lg:w-1/2 py-8'>
           <ul className='flex flex-col gap-4 w-full px-8'>
             <LinkItem source='https://github.com/jeovabastos'>Github</LinkItem>
-            <LinkItem source='https://www.linkedin.com/in/jeovadev/'>Linkedin</LinkItem>
+            <LinkItem source='https://www.linkedin.com/in/jbastosdev/'>Linkedin</LinkItem>
             <LinkItem source='https://www.jbastos.dev/'>Porfolio</LinkItem>
           </ul>          
         </div>
